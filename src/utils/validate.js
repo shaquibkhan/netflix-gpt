@@ -5,5 +5,5 @@ export const Validation  = (email,password)=> {
    if(!isEmailValid) return "Email is not valid";
    if(!isPasswordValid) return "Password is not valid"
 
-   return null;
+   return ([{email}, {password}]);
 }

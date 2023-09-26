@@ -74,3 +74,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 npm install -D tailwindcss
 npx tailwindcss init
+
+
+### `steps for firebase deployment`
+
+npm install firebase
+npm install -g firebase-tools 
+firebase login  `if firebase is not recognised then type below command`
+alias firebase="`npm config get prefix`/bin/firebase"
+firebase init
+firebase deploy
