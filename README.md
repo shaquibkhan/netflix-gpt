@@ -84,3 +84,4 @@ firebase login  `if firebase is not recognised then type below command`
 alias firebase="`npm config get prefix`/bin/firebase"
 firebase init
 firebase deploy
+git push -f origin main
